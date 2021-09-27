@@ -21,10 +21,10 @@ function startpost(json){
     }
         
     posttitle = posttitle.link(posturl);
-    if (standardstyling) document.write('<td style="text-align:left">');
+    if (standardstyling) document.write('<tr><td style="text-align:left">');
     
     document.write(posttitle);
   }
   
-  if (standardstyling) document.write('</td>');
+  if (standardstyling) document.write('</td>,</tr>');
 }
